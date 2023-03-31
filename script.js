@@ -1,9 +1,18 @@
-const buttons = document.querySelectorAll('.read-more-btn');
-const textElements = document.querySelectorAll('.hideText');
+let list = document.querySelectorAll('.nav li');
 
-buttons.forEach((button, index) => {
-  button.addEventListener('click', () => {
-    const textElement = textElements[index];
-    textElement.classList.toggle('showText');
-  });
-});
+function active(){
+    list.forEach((i)=>
+    i.classList.remove('activo'));
+    this.classList.add('activo');
+}
+
+list.forEach((i) =>
+i.addEventListener('click', active));
+
+let menu = document.querySelector('.menuNav');
+
+let header = document.querySelector('header');
+
+menu.onclick = function(){
+    header.classList.toggle('activo');
+}
