@@ -1,217 +1,144 @@
 <!DOCTYPE html>
-    <html lang="en">
-        <head>
-            <meta charset="UTF-8">
-            <meta http-equiv="X-UA-Compatible" content="IE=edge">
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <title>Joel Reinoso</title>
-            <link rel="stylesheet" href="index.css" >
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
 
-            <!- Fuentes para los titulos h1, h2–>
-            <link href="https://fonts.googleapis.com/css2?family=Anton&family=Barlow+Condensed:ital,wght@0,100;0,200;0,400;1,100&family=Bebas+Neue&family=Crete+Round:ital@1&family=Francois+One&family=Fuzzy+Bubbles&family=Permanent+Marker&family=Rubik+Dirt&family=Rubik+Distressed&family=Shadows+Into+Light&family=Silkscreen&family=Staatliches&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+    <!-iconos de fontawesome-> 
+    <script src="https://kit.fontawesome.com/92b897552b.js" crossorigin="anonymous"></script>
+
+    <!- Fuentes para los titulos h1, h2, h3 –>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Barlow+Condensed:ital,wght@0,100;0,200;0,400;1,100&family=Bebas+Neue&family=Crete+Round:ital@1&family=Francois+One&family=Fuzzy+Bubbles&family=Permanent+Marker&family=Rubik+Dirt&family=Rubik+Distressed&family=Shadows+Into+Light&family=Silkscreen&family=Staatliches&display=swap" rel="stylesheet">
             
-            <!-Fuente para los parrafos->
-            <link href="https://fonts.googleapis.com/css2?family=Anton&family=Barlow+Condensed:ital,wght@0,100;0,200;0,400;1,100&family=Bebas+Neue&family=Crete+Round:ital@1&family=Francois+One&family=Fuzzy+Bubbles&family=Permanent+Marker&family=Rajdhani&family=Rubik+Dirt&family=Rubik+Distressed&family=Shadows+Into+Light&family=Silkscreen&family=Staatliches&display=swap" rel="stylesheet">
+    <!-Fuente para los parrafos->
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Barlow+Condensed:ital,wght@0,100;0,200;0,400;1,100&family=Bebas+Neue&family=Crete+Round:ital@1&family=Francois+One&family=Fuzzy+Bubbles&family=Permanent+Marker&family=Rajdhani&family=Rubik+Dirt&family=Rubik+Distressed&family=Shadows+Into+Light&family=Silkscreen&family=Staatliches&display=swap" rel="stylesheet">
 
-            <!-iconos de Fontawesome->
-            <script src="https://kit.fontawesome.com/92b897552b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">JR</a>
+        <div class="menuNav"></div>
+            <ul class="nav">
+                <li class="activo"> <a href="#home">Home</a> </li>
+                <li> <a href="#servicio">Conocimientos</a> </li>
+                <li> <a href="#porfolio">Porfolio</a> </li>
+                <li> <a href="#contacto">Contacto</a> </li>
+            </ul>
+    </header>
 
-        </head>
-        <body>
+    <section id="home">
+        <div class="contenido">
+            <h2>Información</h2>
+            <p>¡Hola! Me llamo Joel Reinoso, tengo 28 años y nací el 15 de mayo de 1994. Soy de nacionalidad argentina, nacida en la ciudad de San Juan. Actualmente, resido en la ciudad de Buenos Aires donde trabajo como programador Front-end.</p>
+            <a href="#" class="boton">Contactame</a>
+        </div>
+        <img src="img/foto1.png " class="imagen" alt="" height="700px" width="500px">
+    </section>
 
-    <!- NAVEGADOR –>    
-
-            <div class="envoltorio">
-                <header>
-                    <nav class="navbar">
-                        <div class="logotipo">
-                            <h2>J<span>R</span></h2>
-                        </div>
-                        <ul class="menu">
-                            <li> <a href=""></a>Inicio</li>
-                            <li> <a href=""></a>Portafolio</li>
-                            <li> <a href=""></a>Sobre mi</li>
-                            <li> <a href=""></a>Contactos</li>
-                        </ul>
-                    </nav>
-                </header>
-
-    <!- INFORMACIÓN –>
-
-                <main class="main">
-                    <div class="informacion-contenido">
-
-                        <h1>Yo soy, <span>Joel </span>Reinoso</h1>
-                        <p>¡Hola! Soy un desarrollador front-end altamente motivado y apasionado por crear experiencias en línea excepcionales. Con una amplia experiencia en HTML, CSS, JavaScript y marcos de trabajo como React, estoy comprometido a crear soluciones de alta calidad que satisfagan las necesidades de los usuarios.
-                           Si estás buscando profesionalidad y dedicación, ¡cuenta conmigo!</p>
-                        <a href=""> <button  class="boton-1"> Descargar CV</button></a>
-
-                    </div>
-                    <img src="C:\Users\joel\Desktop\Proyecto\img/foto-perfil2.png" alt="Imagen que se encuentra en la carpeta /img">
-                </main>
+    <section id="servicio">
+        <div class="seccion-texto">
+            <h2>Mis conocimientos</h2>
+            <p>Soy desarrollador web con experiencia en HTML, CSS, JavaScript, React, Angular y Bootstrap. Tengo 8 años de experiencia en este rubro. Desde pequeño siempre me ha apasionado la tecnología y la programación, por lo que decidí estudiar Informática en la Universidad Nacional De San Juan.
+               Comencé a trabajar en una pequeña empresa de desarrollo web, donde aprendí a utilizar las tecnologías más importantes en el campo. Con el tiempo, fui adquiriendo habilidades y conocimientos en lenguajes de programación como HTML, CSS, JavaScript, React, Angular y Bootstrap.     
+            </p>
+        </div>
+        <div class="servicio-contenido">
+            <div class="servicioBx">
+                <i class="fa-brands fa-html5 fa-10x" style="color: #000000;"></i>
+                <h3>HTML</h3>
             </div>
-
-    <!- SOBRE MI –>
-
-            <div class="sobre-mi">
-                <img src=" C:\Users\joel\Desktop\Proyecto\img/banner-logotipos-2.png" alt="Imagen que se encuentra en la carpeta /img">
-                <div class="info-sobre-mi">
-
-                    <h2>Sobre Mi</h2>
-                    <div class="ralla-divisora"></div>
-
-                        <p>
-                            A lo largo de mi carrera como desarrollador web front-end, he tenido la oportunidad de trabajar en diferentes empresas y proyectos, lo que me ha permitido adquirir una amplia experiencia en el campo.
-                        </p>
-                        <p>
-                            En mi última posición como desarrollador front-end en XYZ Company, tuve la oportunidad de liderar el desarrollo de varias páginas web y aplicaciones de alta calidad utilizando las últimas tecnologías en HTML, CSS, JavaScript y React. Trabajé estrechamente con diseñadores y otros miembros del equipo para asegurarme de que las soluciones que desarrollábamos cumplían con los requisitos del cliente y de los usuarios finales.
-                        </p>    
-                        <p>    
-                        Antes de eso, trabajé en ABC Company, donde fui responsable del desarrollo y mantenimiento de múltiples sitios web, utilizando diversas tecnologías de front-end como HTML, CSS, JavaScript . También trabajé en la integración de varias API y sistemas de gestión de contenido.
-                        </p>
-                        <p>
-                        En resumen, mi experiencia en empresas anteriores me ha permitido desarrollar habilidades en liderazgo de proyectos, trabajo en equipo, comunicación, solución de problemas y habilidades técnicas en diferentes tecnologías y marcos de trabajo de front-end. Estoy emocionado de llevar esta experiencia a nuevos proyectos y empresas en el futuro.
-                        </p>
-
-                 </div>
-
+            <div class="servicioBx">
+                <i class="fa-brands fa-css3-alt fa-10x" style="color: #000000;"></i>
+                <h3>CSS</h3>
             </div>
+            <div class="servicioBx">
+                <i class="fa-brands fa-square-js fa-10x" style="color: #000000;"></i>
+                <h3>JavaScript</h3>
+            </div>
+            <div class="servicioBx">
+                <i class="fa-brands fa-bootstrap fa-9x" style="color: #000000;"></i>
+                <h3>Bootstrap</h3>
+            </div> 
+            <div class="servicioBx">
+                <i class="fa-brands fa-react fa-10x" style="color: #000000;"></i>
+                <h3>React</h3>
+            </div> 
+            <div class="servicioBx">
+                <i class="fa-brands fa-angular fa-10x" style="color: #000000;"></i>
+                <h3>Angular</h3>
+            </div> 
+            <div class="servicioBx">
+                <i class="fa-brands fa-git-alt fa-10x" style="color: #000000;"></i>
+                <h3>Git</h3>
+            </div> 
+            <div class="servicioBx">
+                <i class="fa-brands fa-github fa-10x" style="color: #000000;"></i>
+                <h3>GitHub</h3>
+            </div> 
+        </div>
+    </section>
 
-    <!- PORFOLIO –>        
+    <section id="porfolio">
+        <div class="seccion-texto">
+            <h2> Mi porfolio</h2>
+            <p>Actualmente trabajo como desarrollador web en una empresa de servicios financieros, donde he liderado la creación de varias aplicaciones web con tecnologías modernas y eficientes. Me apasiona el desafío de crear soluciones web que sean intuitivas y fáciles de usar para el usuario final.
+               En mi tiempo libre, me gusta seguir aprendiendo sobre maquetación web, nuevas tecnologías y tendencias en el campo de la programación.    
+            </p>
+        </div> 
+        <div class="contenido">
+            <div class="img-porfolio">
+               <img src="img\web1.jpg" alt="" height="230px" width="400px"> 
+                <h3>Clinica Dental</h3>
+                <a href="https://clinicadentalpcm.com" target="_blank"> <h4>Ver Sitio Web</h4> </a>
+            </div>
+            <div class="img-porfolio">
+                <img src="img\web2.jpg" alt="" height="230px" width="400px"> 
+                <h3>Vivero Mario</h3>
+                <a href="https://tienda.viveromario.com.ar" target="_blank"> <h4>Ver Sitio Web</h4> </a>
+            </div>
+            <div class="img-porfolio">
+                <img src="img\web3.jpg" alt="" height="230px" width="400px"> 
+                <h3>Librenta</h3>
+                <a href="https://www.librenta.com" target="_blank"> <h4>Ver Sitio Web</h4> </a>
+            </div>
+            <div class="img-porfolio">
+                 <img src="img\web4.jpg" alt="" height="230px" width="400px"> 
+                <h3>Panaholma</h3>
+                <a href="https://www.panaholma.com.ar" target="_blank"> <h4>Ver Sitio Web</h4> </a>
+            </div>
+        </div>
+    </section>
 
-            <div class="porfolio">
-                <div class="porfolio-encabezado">
-                  <h2>Mi Porfolio</h2>
-                  <div class="ralla-divisora"></div>
-                </div>
+    <section id="contacto">
+        <div class="seccion-texto">
+            <h2>Contacto</h2>
+            <p>Si deseas mas infomarción o contactarme dejo aqui mis redes sociales para que puedas comunicate conmigo.</p>
+        </div>
+        <div class= "contacto-contenido">
+            <a href="">
+                <i class="fa-solid fa-envelope fa-2xl"></i>
+               joelreinoso86@gmail.com 
+            </a>
+            <a href="">
+                <i class="fa-brands fa-square-facebook fa-2xl"></i>
+               Joel Reinoso
+             </a>
+             <a href="">
+                <i class="fa-brands fa-twitter fa-2xl"></i>
+                @joel_reinoso9
+             </a>
+        </div>
+        <div class="center">
+            <p class="marca">Copyright © 2023 Joel Reinoso</p>
+        </div>
+    </section>
 
-                <div class="contenedor">
-
-        <!- CARTA 1 –>
-
-                    <div class="carta">
-
-                        <div class="carta-img-1"> </div>
-
-                        <div class="carta-titulo"> <h2> <span>C</span>linica Dental</h2> </div>
-                        
-                        <div class="carta-links">
-                        <a href="https://github.com" target="_blank" > <i class="fab fa-github"></i> </a>
-                        <a href="https://clinicadentalpcm.com" target="_blank"> <i class="fas fa-globe-asia"></i> </a>
-                        <a href=""> <i class="fas fa-code"></i> </a>
-                        </div>
-
-                        <div class="boton-contenido">
-                            <span class="hideText"><p class="detalles">Pagina web para una Clinica Dental denominada "PCM" que ofrece servicios de odontologia en Cordoba.</p></span>
-                            <button class="read-more-btn"> <a href="#">Más Detalles</a> </button>
-                        </div>
-
-                    </div>
-
-        <!- CARTA 2 –>            
-
-                    <div class="carta">
-                        <div class="carta-img-2"> </div>
-
-                        <div class="carta-titulo"> <h2> <span>V</span>ivero Mario</h2> </div>
-
-                        <div class="carta-links">
-                        <a href="https://github.com" target="_blank" > <i class="fab fa-github"></i> </a>
-                        <a href="https://tienda.viveromario.com.ar" target="_blank"> <i class="fas fa-globe-asia"></i> </a>
-                        <a href=""> <i class="fas fa-code"></i> </a>
-                        </div>
-
-                        <div class="boton-contenido">
-                            <span class="hideText"><p class="detalles">Pagina web E-commerce para un emprendimiento denominado "Mario Vivero" el cual ofrece sus servicios para la venta de plantas,masetas,etc </p></span>
-                            <button class="read-more-btn"> <a href="#">Más Detalles</a> </button>
-                        </div>
-
-                    </div>
-
-        <!- CARTA 3 –>
-
-                    <div class="carta">
-                        <div class="carta-img-3"> </div>
-
-                        <div class="carta-titulo"> <h2> <span>L</span>ibrenta</h2> </div>
-
-                        <div class="carta-links">
-                        <a href="https://github.com" target="_blank" > <i class="fab fa-github"></i> </a>
-                        <a href="https://www.librenta.com" target="_blank"> <i class="fas fa-globe-asia"></i> </a>
-                        <a href=""> <i class="fas fa-code"></i> </a>
-                        </div>
-
-                        <div class="boton-contenido">
-                            <span class="hideText"><p class="detalles">Pagina web E-commerce para un emprendimiento denominado "Librenta" la cual ofrece la venta de diferentes libros</p></span>
-                             <button class="read-more-btn"> <a href="#">Más Detalles</a> </button>
-                        </div>
-
-                    </div>
-
-        <!- CARTA 4 –>
-
-                    <div class="carta">
-                        <div class="carta-img-4"> </div>
-
-                        <div class="carta-titulo"> <h2> <span>P</span>anaholma</h2> </div>
-
-                        <div class="carta-links">
-                        <a href="https://github.com" target="_blank" > <i class="fab fa-github"></i> </a>
-                        <a href="https://www.panaholma.com.ar" target="_blank"> <i class="fas fa-globe-asia"></i> </a>
-                        <a href=""> <i class="fas fa-code"></i> </a>
-                        </div>
-
-                        <div class="boton-contenido">
-                            <span class="hideText"><p class="detalles">Pagina web para la empresa Panaholma que ofrece servicios de transporte</p></span>
-                        <button class="read-more-btn"> <a href="#">Más Detalles</a> </button>
-                        </div>
-
-                    </div>
-                </div>
-
-    <!- CONTACTO –>
-
-                <div class="contacto-seccion">
-                    <div class="contacto-encabezado">
-                        <h2>Contacto</h2>
-                        <div class="ralla-divisora"></div>
-                    </div>
-
-                    <div class="contenedor-contacto">
-                        <img src="C:\Users\joel\Desktop\Proyecto\img/banner-3.jpg" alt="Imagen que se encuentra en la carpeta /img">
-
-                        <div class="contact-form">
-                            <h4>Envia el mensaje...</h4>
-                                <form class="formulario-grupo">
-                                    <input type="text" placeholder="Nombre" class="input">
-                                    <input type="email" placeholder="Email" class="input">
-                                    <textarea name="message" placeholder="Por favor escribe aqui..."></textarea>
-                                    <button type="submit" id="boton-enviar">Enviar</button>
-                                </form>
-                        </div>
-                    </div>
-                </div>
-
-    <!- PIE DE PAGINA –>
-                
-                <footer class="footer">
-
-                    <div class="footer-contenido">
-                        <h2>Joel Alberto Reinoso</h2>
-                        <h5>Front-End Developer</h5>
-                    </div>
-
-                    <div class="redes-sociales">
-
-                         <a href="https://www.facebook.com" target="_blank" >  <i class="fa-brands fa-facebook"></i> </a> 
-                         <a href="https://www.instagram.com" target="_blank" >  <i class="fa-brands fa-instagram"></i> </a>
-                         <a href="https://www.twitter.com" target="_blank" > <i class="fa-brands fa-twitter"></i> </a> 
-                         <a href="https://www.linkedin.com" target="_blank" > <i class="fa-brands fa-linkedin"></i>  </a>
-                      
-                    </div>
-
-                </footer>
-
-                <script type="text/javascript" src="script.js"></script>
-         </body>
+    <script type="text/javascript" src="script.js" ></script>
+</body>
 </html>
+
+
